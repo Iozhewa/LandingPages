@@ -39,3 +39,21 @@ Router#
 Router# show ip int brief
 ```
 ![cable time B)](https://github.com/Iozhewa/LandingPages/blob/main/Yeshua/assets/cables.png)
+
+Here's a list of roads Packiceetus can go. We can check the road is there, but don't expect any roadside show; we have yet
+to uncover the IP address of any devices...
+```
+Router# ping 10.13.37.1
+Router# ping 192.168.1.1
+Router# ping 10.176.120.1
+```
+This is Packiceetus' way of spinning around a roundabout. He's having a lot of find, mind you, but he's not going anywhere.
+Let's try and get more information on these roads, these `cables`.
+```
+Router# show int g4/0
+Router# show int g5/0
+__________________________ <- Let's read through some info before moving on..!
+Router# show ip int 3/0
+Router# show ip int 3/0.10
+Router# show ip int 3/0.20
+```

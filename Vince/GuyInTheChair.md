@@ -129,3 +129,31 @@ Now open up the computer terminal...
 ![Here's a series of images (1/3)](https://github.com/Iozhewa/LandingPages/blob/main/Vince/assets/Ew.png)
 ![Here's a series of images (2/3)](https://github.com/Iozhewa/LandingPages/blob/main/Vince/assets/THATSaTERMINAl.png)
 ![Here's a series of images (3/3)](https://github.com/Iozhewa/LandingPages/blob/main/Vince/assets/OohLala.png)
+
+And now we got a new list of commands:
+```
+pwd
+  ~ A little reality check! Defines your current path in a set of files -- a directory
+ls
+  ~ Lists all folders and other content within a directory
+cd
+ --> cd ..
+    ~ Takes you back one step
+ --> cd [filename]
+    ~ Takes you a step deeper within a file system
+cat [filename]
+  ~ If the file is in (txt), it can be printed within the terminal! Otherwise things might get cramped
+clear
+  ~ Provides a blank state for your terminal
+```
+>[!NOTE]
+>Here's your final challenge! Work together with the host of this task. There's a lot of strange things your sibling downloads into this directory, all recorded in the audit logs of the database. This is the place Ned stores information for pinned messages on C-Snap. Exploit it to find a 'flag' file and win!
+
+![What to expect](https://github.com/Iozhewa/LandingPages/blob/main/Vince/assets/Screenshot%202023-11-07%204.07.01%20AM.png)
+## Reflection
+So obviously, that's not how people _actually_ hack distributive systems.
+Cloud storage is an alleviation from physical hardware; naturally people want to protect it.
+
+What your actions today alluded to was a `Man-in-the-Middle` attack. You found an access point, acquired sensitive data, and were able to use it for personal exploits. That's a dangerous thing (and I'm proud of you).
+
+In addition, you accessed a cloud 'hybrid' network. Both private for the audits in Ned's system, and public for all of his clients. There is a sweet spot where these things can be balanced. If this challenge entertained you in any way, please, continue the conversation. Cybersecurity is a terribly wondrous thing.

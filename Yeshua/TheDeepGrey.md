@@ -57,3 +57,6 @@ Router# show ip int 3/0
 Router# show ip int 3/0.10
 Router# show ip int 3/0.20
 ```
+>[!NOTE]
+>Draw particular notice to the ratio of Leased Addresses to Excluded. A leased address is often indicative of the DHCP in action.
+>The `IP address range` at the bottom of each section can implies a list of IP able to be pinged...!

@@ -55,9 +55,9 @@ Let's try and get more information on these roads, these `cables`.
 Router# show int g4/0
 Router# show int g5/0
 __________________________ <- Let's read through some info before moving on..!
-Router# show ip int 3/0
-Router# show ip int 3/0.10
-Router# show ip int 3/0.20
+Router# show ip int g3/0
+Router# show ip int g3/0.10
+Router# show ip int g3/0.20
 ```
 Daunting, huh? Like a map before GPS. So let's highlight key info. Take your time reading, though!
 We'll write notes too. All good hackers do so >:]
